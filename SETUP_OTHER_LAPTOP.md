@@ -7,11 +7,9 @@
 cd ~/projects  # or your preferred location
 
 # Clone the repository
-git clone git@github.com:YOUR_USERNAME/YOUR_REPO_NAME.git WhatsApp
+git clone https://github.com/rmencke2/whatsapp.git WhatsApp
 cd WhatsApp
 ```
-
-**Note:** Replace `YOUR_USERNAME` and `YOUR_REPO_NAME` with your actual GitHub username and repository name.
 
 ## Step 2: Open in Cursor
 
@@ -67,5 +65,5 @@ The app will be available at `http://localhost:3000`
 ## Troubleshooting
 
 - **If `cursor` command not found**: You may need to install Cursor's command line tools from Cursor settings
-- **If git clone fails**: Make sure you have SSH keys set up with GitHub, or use HTTPS: `git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git`
+- **If git clone fails**: Make sure you have internet access and GitHub credentials configured. You can also use SSH: `git clone git@github.com:rmencke2/whatsapp.git`
 - **If dependencies fail**: Make sure you have Node.js 18+ installed (`node --version`)
