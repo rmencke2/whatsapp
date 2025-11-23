@@ -30,8 +30,8 @@ A Next.js application for managing WhatsApp business interactions with AI-powere
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd WhatsApp
+   git clone https://github.com/rmencke2/whatsapp.git
+   cd whatsapp
    ```
 
 2. **Install dependencies**
